@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="js/bootstrap.min.js">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <title>TRAVEL</title>
+</head>
+<body>
+  <!-- หัวเรื่อง -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">เที่ยวทั่วไทย</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">หน้าแรก</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link">สถานที่ท่องเที่ยว</a>
+                </li>
+                
+                <a class="nav-link " data-bs-toggle="modal" data-bs-target="#myModal">ติดต่อเรา</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/licensed-image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>จังหวัดเชียงใหม่</h5>
+              <p>เชียงใหม่เป็นเมืองที่ล้อมรอบด้วยภูเขา ตั้งอยู่ทางภาคเหนือของประเทศไทย ก่อตั้งขึ้นในปีพ.ศ.1839 ในฐานะเมืองหลวงของอาณาจักรล้านนาซึ่งเป็นรัฐอิสระจนถึงปีพ.ศ. 2101 บริเวณเขตเมืองเก่าของเชียงใหม่ยังคงมีซากกำแพงเมืองและคูเมืองโบราณที่ในอดีตเคยเป็นศูนย์กลางทางวัฒนธรรมและศาสนา และยังเป็นที่ตั้งของวัดทางพุทธศาสนาที่ก่อสร้างอย่างประณีตงดงามนับร้อยๆแห่ง รวมถึงวัดพระสิงห์ที่สร้างขึ้นในศตวรรษที่ 14 และวัดเจดีย์หลวงที่สร้างขึ้นในศตวรรษที่ 15 ซึ่งประดับประดาด้วยรูปปั้นพญานาค</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/123.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>จังหวัดสุราษฎร์ธานี</h5>
+              <p>สุราษฎร์ธานี มักจะเรียกกันด้วยชื่อสั้น ๆ ว่า สุราษฎร์ฯ ใช้อักษรย่อ สฎ เป็นจังหวัดในภาคใต้ตอนบน มีพื้นที่ขนาดใหญ่ที่สุดในภาคใต้ และเป็นอันดับ 6 ของประเทศไทย และมีประชากรหนาแน่นอันดับ 59 ของประเทศ นับเป็นจังหวัดหนึ่งที่มีประวัติศาสตร์ยาวนาน มีหลักฐานทั้งประวัติศาสตร์และโบราณคดีเก่าแก่</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/นครราชสีมา.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>จังหวัดนครราชสีมา</h5>
+              <p>นครราชสีมา หรือรู้จักในชื่อ โคราช เป็นจังหวัดหนึ่งในภาคตะวันออกเฉียงเหนือของประเทศไทย มีพื้นที่ 20,493 ตารางกิโลเมตร มีพื้นที่กว้างใหญ่เป็นอันดับ 2 ของประเทศ ชื่อเมืองนครราชสีมาปรากฏที่เป็นบทความเป็นครั้งแรกเป็นเมืองพระยามหานครในการปฏิรูปการปกครองในรัชสมัยสมเด็จพระบรมไตรโลกนาถ</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ชุมพร.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>จังหวัดชุมพร</h5>
+              <p>ชุมพร มีชื่อปรากฏมาตั้งแต่ปี พ.ศ. 1098 โดยมีฐานะเป็นเมืองสิบสองนักษัตรของราชอาณาจักรนครศรีธรรมราช ใช้รูปแพะเป็นตราเมือง และเป็นเมืองหน้าด่านฝ่ายเหนือ เพราะอยู่ตอนบนของภาคใต้ ใน พ.ศ. 1997</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/กาญจนบุรี.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>จังหวัดกาญจนบุรี</h5>
+              <p>กาญจนบุรี เป็นจังหวัดหนึ่งที่ตั้งอยู่ในภาคตะวันตกของประเทศไทย มีพื้นที่ทั้งหมดประมาณ 19,473 ตารางกิโลเมตร มีพื้นที่ใหญ่เป็นอันดับ 3 ของประเทศ รองจากจังหวัดนครราชสีมา และจังหวัดเชียงใหม่ และมีพื้นที่ใหญ่ที่สุดในภาคตะวันตก มีระยะทางห่างจากกรุงเทพมหานครประมาณ 129 กิโลเมตร</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <br>
+
+<h1 class="text-center">สถานทีท่องเที่ยวจังหวัดเชียงใหม่</h1>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 15rem;">
+        <img src="img/ดอยอินทนนท์.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ดอยอินทนนท์</h5>
+          <p class="card-text"> ที่เที่ยวเชียงใหม่สูงสุดแดนสยามก็คือดอยอินทนนท์ด้วยความสูงจากระดับน้ำทะเล 2,565 เมตร ระหว่างทางขึ้นดอยมีสถานที่ท่องเที่ยวให้เราได้สัมผัสกับธรรมชาติและความงามของเมืองเหนืออยู่หลายแห่ง ไม่ว่าจะเป็นพระมหาธาตุนภเมทนีดล, พระมหาธาตุนภพลภูมิสิริ, กิ่วแม่ปาน, สถานีเกษตรหลวงอินทนนท์, บ้านแม่กลางหลวง, บ้านผาหมอน, น้ำตกแม่ยะ, น้ำตกวชิรธาร ฯลฯ</p>
+          <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+      </div>
+      </div>
+      </div>
+      
+        <div class="col">
+          <div class="card" style="width: 15rem;">
+            <img src="img/ดอยอ่างขาง.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ดอยอ่างขาง</h5>
+              <p class="card-text">ที่เที่ยวเชียงใหม่แห่งต่อมาก็คือดอยอ่างขาง สถานที่ท่องเที่ยวทางธรรมชาติเชียงใหม่ที่เราจะได้สัมผัสอากาศเย็น ๆ พร้อมชมดอกไม้ พืชผักเมืองหนาว ทะเลหมอก ดอกพญาเสือโคร่ง และอื่น ๆ อีกมากมาย ซึ่งบนดอยอ่างขางนั้นมีสถานที่ท่องเที่ยวสำคัญหลายจุดให้เราได้ไปปักหมุดเช็กอินเพียบ ทั้งสถานีเกษตรหลวงอ่างขาง, ไร่สตรอว์เบอร์รีบ้านนอแล, ไร่ชา 2000, จุดชมวิวม่อนสน, จุดชมวิวซุ่ยถัง เป็นต้น บอกเลยว่าใครที่ชื่นชอบการชมดอกนางพญาเสือโคร่งหรือซากุระเมืองไทย ดอยอ่างขางนี่แหละคือที่ที่จะทำให้เราได้ชมความงามอย่างสมใจ</p>
+              <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+          </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 15rem;">
+              <img src="img/ดอยหลวงเชียงดาว.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ดอยหลวงเชียงดาว</h5>
+                <p class="card-text">อีกหนึ่งที่เที่ยวเชียงใหม่ยอดฮิตที่เป็นทริปในฝันของใครหลาย ๆ คน ดอยหลวงเชียงดาวยอดเขาที่สูงเป็นอันดับสามของประเทศ คือ 2,225 เมตร มีกิจกรรมให้ทำมากมาย ไม่ว่าจะเป็นนอนพักโฮมสเตย์ชมวิวหมอกสวย ๆ กับวิวดอยหลวงเชียงดาวตรงหน้า หรือจะฟิตร่างกายไปพิชิตยอดดอยหลวงเชียงดาว เพื่อชมวิวทะเลหมอก 360 องศา ตลอดจนไปชมถ้ำเชียงดาว เลือกแบบไหนก็จัดได้เลย</p>
+                <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+            </div>
+            </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="img/น้ำตกผาดอกเสี้ยว.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">น้ำตกผาดอกเสี้ยว</h5>
+                  <p class="card-text">น้ำตกที่ขึ้นชื่อว่าโรแมนติกที่สุดในเชียงใหม่ ใครที่เที่ยวเชียงใหม่แล้วยังไม่ได้แวะมาที่นี่ แนะนำว่าให้รีบมาปักหมุดด่วน เพราะน้ำตกแห่งนี้มีความสวยงามโรแมนติกมาก จนภาพยนตร์เรื่องรักจังต้องมาถ่ายทำที่นี่ วิธีการเดินทางไปชมน้ำตกผาดอกเสี้ยวสามารถเริ่มต้นจากศูนย์บริการนักท่องเที่ยวเชิงอนุรักษ์บ้านแม่กลางหลวง ที่อยู่ในเขตอุทยานแห่งชาติดอยอินทนนท์ แล้วคุณก็จะได้ชื่นชมกับธรรมชาติอันงดงาม</p>
+                  <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+              </div>
+              </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 15rem;">
+                  <img src="img/ป่าบงเปียง.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ป่าบงเปียง</h5>
+                    <p class="card-text">ไปฟินกันต่อกับป่าบงเปียง ที่เที่ยวเชียงใหม่ที่ได้รับความนิยมมาก ด้วยทัศนียภาพของนาขั้นบันไดที่สวยงามเย้ายวนใจให้ใครหลาย ๆ คน เลือกที่จะมาปักหมุดกันที่นี่ ยิ่งในช่วยฤดูฝนแล้ว นาขั้นบันไดที่นี่จะเขียวครึ้มสวยทั้งหุบเขา พอถึงหน้าหนาวก็เห็นทะเลหมอกลอยเอื่อย ๆ มาแตะหน้าประตูห้อง ใครอยากสัมผัสบรรยากาศฟิน ๆ แนะนำให้มาพักโฮมสเตย์ที่นี่กันเลยจ้า</p>
+                    <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                </div>
+                </div>
+                </div><br>
+              
+<h1 class="text-center">สถานทีท่องเที่ยวจังหวัดสุราษฎร์ธานี</h1>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 15rem;">
+        <img src="img/เกาะนางยวน1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">เกาะนางยวน</h5>
+          <p class="card-text">เมื่อมาถึงจังหวัดสุราษฎร์ธานี หากไม่ได้ไปเที่ยวทะเลเลยก็ดูเหมือนจะยังมาไม่ถึง เกาะนางยวนนั้นเป็นเกาะเล็กๆอยู่ใกล้ ๆ กับเขาเต่าที่ความสวยงามของวิวนั้นไม่เล็กเหมือนอาณาบริเวณโดยรอบเกาะเลย ความพิเศษของเกาะนางยวนก็คือจะเป็นเกาะเล็ก ๆ 3 เกาะที่ถูกเชื่อมโยงถึงกันด้วยสันทรายตรงกลางที่เป็นเอกลักษณ์ 1 เดียวในโลก เมื่อมองจากจุดชมวิวลงไปด้านล่างคุณจะได้เห็นสุดยอดวิวที่มีความสวยงามที่ได้รับการยกย่องให้เป็น 1 ใน 10 เกาะที่สวยที่สุดติดอันดับโลกเลยทีเดียว ที่เที่ยวสุราษฎร์ธานีแห่งนี้นับเป็นสถานที่ท่องเที่ยวที่น่าภาคภูมิใจและไม่ควรพลาดเลยจริง ๆ</p>
+          <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+      </div>
+      </div>
+      </div>
+      
+        <div class="col">
+          <div class="card" style="width: 15rem;">
+            <img src="img/เกาะเต่า.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> เกาะเต่า</h5>
+              <p class="card-text">เกาะเต่านั้นเป็นอีกหนึ่งความภาคภูมิใจของจังหวัดสุราษฎร์ธานี ที่เที่ยวสุราษฎร์ธานีแห่งนี้เป็นเกาะเล็ก ๆ ที่มีลักษณะคล้ายเมล็ดถั่วล่องลอยอยู่ใจกลางทะเล มีชายหาดมากถึง 11 แห่งไว้รอต้อนรับนักท่องเที่ยวทุกไลฟ์สไตล์เช่น หาดทรายรี เหมาะสมกับนักท่องเที่ยวที่ชื่นชอบการกินดื่ม พบปะสังสรรค์ หาดฟรีด้อม เหมาะสมกับนักท่องเที่ยวสายชิลที่ต้องการความเงียบสงบและเป็นส่วนตัว เกาะเต่านั้นเป็นเกาะที่ได้ชื่อว่ามีโลกใต้น้ำที่สวยที่สุดในประเทศไทย เหมาะกับกิจกรรมดำน้ำทั้งลึกและตื้น มีสัตว์ทะเลน้อยใหญ่และปะการังสวยงามสมบูรณ์แบบมากที่สุดที่ใครเห็นเป็นต้องทึ่ง</p>
+              <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+          </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 15rem;">
+              <img src="img/ป่าต้นน้ำ บ้านน้ำราด.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ป่าต้นน้ำ บ้านน้ำราด</h5>
+                <p class="card-text">เกาะเต่านั้นเป็นอีกหนึ่งความภาคภูมิใจของจังหวัดสุราษฎร์ธานี ที่เที่ยวสุราษฎร์ธานีแห่งนี้เป็นเกาะเล็ก ๆ ที่มีลักษณะคล้ายเมล็ดถั่วล่องลอยอยู่ใจกลางทะเล มีชายหาดมากถึง 11 แห่งไว้รอต้อนรับนักท่องเที่ยวทุกไลฟ์สไตล์เช่น หาดทรายรี เหมาะสมกับนักท่องเที่ยวที่ชื่นชอบการกินดื่ม พบปะสังสรรค์ หาดฟรีด้อม เหมาะสมกับนักท่องเที่ยวสายชิลที่ต้องการความเงียบสงบและเป็นส่วนตัว เกาะเต่านั้นเป็นเกาะที่ได้ชื่อว่ามีโลกใต้น้ำที่สวยที่สุดในประเทศไทย เหมาะกับกิจกรรมดำน้ำทั้งลึกและตื้น มีสัตว์ทะเลน้อยใหญ่และปะการังสวยงามสมบูรณ์แบบมากที่สุดที่ใครเห็นเป็นต้องทึ่ง</p>
+                <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+            </div>
+            </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="img/วัดพระบรมธาตุไชยา0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">พระบรมธาตุไชยาราชวรวิหาร</h5>
+                  <p class="card-text">สิ่งศักดิ์สิทธิ์คู่บ้านคู่เมืองที่ขาดไม่ได้เมื่อได้มาท่องเที่ยวที่จังหวัดสุราษฎร์ธานี วัดพระบรมธาตุไชยาวรวิหารแห่งนี้มีความงดงามของสถาปัตยกรรมในสมัยกรุงศรีวิชัยที่สวยงามและสมบูรณ์แบบที่สุดจนได้รับการยกย่องให้เป็นโบราณสถานที่สำคัญแห่งหนึ่งในประเทศ ไฮไลต์เด็ดขอที่เที่ยวสุราษฎร์ธานีแห่งนี้ก็คือ พระพุทธรูปที่สลักเสลาขึ้นจากศิลาทรายสีแดงที่มีความงดงามและเป็นเอกลักษณ์ของฝีมือช่างไชยาในสมัยนั้น อีกทั้งยังมีพิพิธภัณฑ์สถานที่ได้รวบรวมโบราณวัตถุสมัยกรุงศรีวิชัยที่ขุดพ้นในบริเวณโดยรอบวัดแห่งเอาไว้ให้คุณได้เข้าไปเยี่ยมชม</p>
+                  <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+              </div>
+              </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 15rem;">
+                  <img src="img/Bridge Hill Cafe.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bridge Hill Cafe</h5>
+                    <p class="card-text">แวะมาพักกับคาเฟ่สวย ๆ ที่มีจุดถ่ายรูปเพียบอย่าง Bridge Hill Cafe ร้านอาหารและคาเฟ่ที่ตั้งอยู่ระหว่างทางไปเขาสก ที่เที่ยวสุราษฎร์ธานีแห่งนี้รายล้อมด้วยวิวถ่ายภาพกับภูเขาหินปูนที่สวยงาม มีบันไดสวรรค์สีขาวที่มีฉากหลังเป็นวิวเขา และยังมีเปลตาข่ายให้นั่งเล่นนอนเล่นถ่ายรูปชิล ๆ แถมยังมีห้องพักด้วยนะ มาที่นี่มีกิจกรรมให้ทำเพียบ</p>
+                    <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                </div>
+                </div>
+                </div>
+
+                <h1 class="text-center">สถานทีท่องเที่ยวจังหวัดนครราชสีมา</h1>
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card" style="width: 15rem;">
+                        <img src="img/อุทยานพิมาย.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">อุทยานประวัติศาสตร์พิมาย </h5>
+                          <p class="card-text"> ถ้าพูดถึง ที่เที่ยวโคราช ที่มีชื่อเสียง และเป็นโบราณสถานที่สำคัญของไทยแล้วล่ะก็ คงหนีไม่พ้น อุทยานประวัติศาสตร์พิมาย ซึ่งเป็นสถานที่ตั้งของ ปราสาทหินพิมาย นั่นเองค่ะ ที่นี่เป็นศาสนสถานในพุทธศาสนานิกายมหายานที่มีอายุราวๆ 1,000 ปีมาแล้ว สันนิษฐานว่า เมืองพิมายนี้ได้ถูกสร้างขึ้นในสมัยอาณาจักรขอมโบราณ</p>
+                          <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                      </div>
+                      </div>
+                      </div>
+                      
+                        <div class="col">
+                          <div class="card" style="width: 15rem;">
+                            <img src="img/อุทยานแห่งชาติเขาใหญ่.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">อุทยานแห่งชาติเขาใหญ่</h5>
+                              <p class="card-text">สถานที่เที่ยวโคราชที่นอกจากจะอบอวลไปด้วยแมกไม้และอากาศบริสุทธิ์สดชื่นแล้ว สำหรับคนที่ชอบการผจญภัย อยากจะจำลองสถานการณ์ว่าตัวเองเป็นนักสำรวจต้องปลื้มสุด ๆ แน่ ๆ เพราะที่นี่เขาเปิดให้นักท่องเที่ยวได้ใกล้ชิดธรรมชาติ ตลอดไปจนถึงการส่องสัตว์เล็กใหญ่ และกิจกรรมบนเขาอีกมากมาย ถ้าใครอยากดูรีวิวการเที่ยวเขาใหญ่แบบละเอียดยิบล่ะก็ สามารถตามไปได้ที่ 2 วัน 1 คืน เที่ยวเขาใหญ่ โคราช และ จุดกางเต็นท์เขาใหญ่ 2 วัน 1 คืน ปาร์ตี้กับไอหนาว นอนดูดาวบนเขาใหญ่ เป็นการรวบรวมไว้ทั้งที่กิน ที่พัก เสร็จสรรพพร้อมลุยสุด ๆ ไปเลย! </p>
+                              <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                          </div>
+                          </div>
+                          </div>
+                
+                          <div class="col">
+                            <div class="card" style="width: 15rem;">
+                              <img src="img/วัดบ้านไร่.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">วัดบ้านไร่</h5>
+                                <p class="card-text">ศาสนสถานที่เที่ยวด่านขุนทด ขึ้นชื่อเรื่องทัศนียภาพสวยงามโดยรอบ “วัดบ้านไร่” ที่เที่ยวโคราช เป็นวัดดังในโคราชที่ตกแต่งสถานที่ด้วยรูปปั้นต่าง ๆ ไม่ว่าจะเป็น ม้านิลมังกร, พญานาค เหล่าสัตว์ในตำนาน และเทพสวรรค์อีกมากมาย ก่อนจะเข้าไปกราบไหว้รูปหล่อเกจิอาจารย์ดังอย่าง หลวงพ่อคูณ เป็นการเสริมสิริมงคลให้ชีวิต อ่านต่อได้ที่ https://www.wongnai.com/trips/travel-at-korat?ref=ct</p>
+                                <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                            </div>
+                            </div>
+                            </div>
+                
+                            <div class="col">
+                              <div class="card" style="width: 15rem;">
+                                <img src="img/เขายายเที่ยง.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">เขายายเที่ยง</h5>
+                                  <p class="card-text">เห็นกังหันลมสีขาวตั้งตระหง่านมาแต่ไกล เป็นสัญญาณว่าเพื่อน ๆ ได้เดินทางมาถึงที่หมายของเรา ที่เที่ยวโคราชอย่าง “เขายายเที่ยง” เป็นที่เรียบร้อย จุดเช็กอินสำคัญที่ไม่ควรพลาด ด้วยวิวอ่างเก็บน้ำพร้อมกับปั่นจักรยานรับลมเย็น ๆ โดยรอบเจอมุมที่ถูกใจ อยากถ่ายตรงไหนก็แวะได้เลย! ขยับไปอีกไม่ไกลมีอีกจุดเช็กอินอีกหนึ่งแห่งที่ไม่ว่าใครได้ยินชื่อก็คงต้องร้องอ๋อไปตาม ๆ กันอย่างแน่นอน อ่านต่อได้ที่ https://www.wongnai.com/trips/travel-at-korat?ref=ct</p>
+                                  <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                              </div>
+                              </div>
+                              </div>
+                
+                              <div class="col">
+                                <div class="card" style="width: 15rem;">
+                                  <img src="img/น้ำผุด-เขาใหญ่.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">น้ำผุด-เขาใหญ่</h5>
+                                    <p class="card-text">น้ำผุดหรือน้ำพุธรรมชาติบ้านท่าช้าง แหล่งท่องเที่ยวใหม่ในเขาใหญ่นี้เปิดให้เข้าชมฟรี มีที่จอดรถ บรรยกาศร่มรื่น ต้นไม่ใหญ่เยอะ มีน้ำผุดออกมาตลอดทั้งปี น้ำใสออกสีฟ้าเขียว เนื่องจากมีบริมาณแคลเซียมคาร์บอเนตสูงกิจกรรมที่แนะนำคือเล่นน้ำและพายเรือคายัก โดยเรือให้บริการทุกวันตั้งแต่เวลา 9.00-16.00น. ด้านในไม่อนุญาตให้นำอาหาร ขนม และเครื่องดื่มทุกชนิดยกเว้นน้ำเปล่าเข้าไป </p>
+                                    <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                                </div>
+                                </div>
+                                </div>
+
+<h1 class="text-center">สถานทีท่องเที่ยวจังหวัดชุมพร</h1>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 15rem;">
+        <img src="img/อุทยานแห่งชาติหมู่เกาะชุมพร.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">อุทยานแห่งชาติหมู่เกาะชุมพร</h5>
+          <p class="card-text">แหล่งท่องเที่ยวสุดคุ้มของชุมพร เพราะมีเกาะสวยๆ ให้ได้ตระเวนชมความสวยงามถึง 40 เกาะ โดยมีเกาะที่มีชื่อเสียงโด่งดังอยู่หลายเกาะ เช่น เกาะง่ามใหญ่, เกาะง่ามน้อย, เกาะทะลุ, เกาะมาตรา, เกาะรังกาจิว, เกาะหลักแรด, เกาะละวะ เป็นต้น แต่ละเกาะก็ล้วนมีเอกลักษณ์เป็นของตัวเอง และยังคงความสมบูรณ์ของทรัพยากรทางทะเลเอาไว้ได้อย่างดี ตั้งแต่แนวปะการัง, ดงดอกไม้ทะเล ไปจนถึงฝูงสัตว์ทะเลนานาชนิด นอกจากนี้ภายในอุทยานยังมีพื้นที่ป่าชายเลนให้ได้เที่ยวชมและศึกษาเส้นทางธรรมชาติป่าชายเลนอีกด้วย</p>
+          <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+      </div>
+      </div>
+      </div>
+      
+        <div class="col">
+          <div class="card" style="width: 15rem;">
+            <img src="img/สะพานไม้เคี่ยม.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">สะพานไม้เคี่ยม</h5>
+              <p class="card-text">สะพานไม้เคี่ยม หนองใหญ่ ถือเป็นจุดชมวิวที่สวยงาม และมีอากาศที่บริสุทธิ์มากๆ แห่งหนึ่งในจังหวัดชุมพรเลยก็ว่าได้ วัสดุของตัวสะพานทำจากไม่เคี่ยม ทอดตัดผ่านแก้มลิงขนาดใหญ่ เชื่อมต่อกับเกาะกลางน้ำเล็กๆ โอบล้อมไปด้วยธรรมชาติของป่าเขาและป่าพรุ เงียบสงบเป็นอย่างมาก นอกจากนี้ ที่นี่ยังเป็นโครงการแก้มลิงแห่งแรกในประเทศไทย ที่พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช รัชกาลที่ 9 ทรงออกแบบ และควบคุมการสร้างด้วยพระองค์เองอีกด้วยเช่นกัน</p>
+              <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+          </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 15rem;">
+              <img src="img/จุดชมวิวเขามัทรี.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">จุดชมวิวเขามัทรี</h5>
+                <p class="card-text"> ว่าแล้วเราก็ขึ้นเขาไปชมวิวสวยๆ กันที่ จุดชมวิวเขามัทรี กันเถอะ! ตรงนี้เป็นจุดที่เราสามารถมองเห็นวิวของจังหวัดชุมพรเต็มๆ แบบ 360 องศา แถมยังมีร้านอาหาร และคาเฟ่บรรยากาศดีๆ ให้ดื่มด่ำกับวิวสวยๆ อีกด้วยนะขึ้นเขาไปแล้ว ก็อย่าลืมไปกราบไหว้ องค์เจ้าแม่กวนอิม หรือ พระโพธิสัตว์อวโลกิเตศวร ปางมหาราชลีลา กันนะคะ เพราะชาวประมงที่นี่มีความเชื่อกันว่า องค์เจ้าแม่กวนอิมปางนี้จะคอยปกปักษ์รักษาคนที่เดินทางออกทะเลให้แคล้วคลาดปลอดภัย และเสริมสิริมงคลให้กับคนที่มาไหว้เช่นเดียวกัน</p>
+                <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+            </div>
+            </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="img/วัดพระบรมธาตุสวี.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">วัดพระบรมธาตุสวี</h5>
+                  <p class="card-text"> ดำน้ำ ขึ้นเขาชมวิวกันแล้ว เราก็ไปทำบุญ ไหว้พระกันที่ วัดพระบรมธาตุสวี สักหน่อยค่ะ วัดพระบรมธาตุสวี เป็นวัดที่มีความสำคัญทางประวัติศาสตร์และจังหวัดชุมพรเป็นอย่างมาก เพราะเป็นที่นี่เป็นที่ตั้งของ พระธาตุสวี ที่บรรจุพระบรมสารีริกธาตุ สิ่งศักดิ์สิทธิ์คู่บ้านคู่เมืองสวีมาเป็นเวลาช้านาน จากลักษณะขององค์พระธาตุที่เป็นเจดีย์ศรีทอง ทรงระฆังคว่ำ จึงมีการสันนิฐานกันว่า องค์พระธาตุสวีนั้นมีมาตั้งแต่สมัยกรุงศรีอยุทธยา ซึ่งมีอายุเก่าแก่ถึง 700 ปี เลยล่</p>
+                  <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+              </div>
+              </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 15rem;">
+                  <img src="img/อ่าวทุ่งซาง.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">อ่าวทุ่งซาง</h5>
+                    <p class="card-text">ยังคงอยู่ที่อำเภอปะทิวกับ อ่าวทุ่งซาง อ่าวเล็กๆ ที่มาพร้อมบรรยากาเศเงียบสงบ ไม่มีบ้านเรือน และร้านอาหาร มีเพียงชายหาดที่ทอดโค้งยาวคล้ายเสี้ยวพระจันทร์ ประมาน 1.3 กิโลเมตร และศาลาชมวิวเท่านั้น ตอบโจทย์สำหรับคนที่ไม่ชอบความวุ่นวาย แต่อยากสูดกิล่นอายทะเล และชมวิวสวยๆ ของท้องทะเลอันกว้างใหญ่ และขุนเขาที่รายล้อม</p>
+                    <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                </div>
+                </div>
+                </div>                                
+                
+<h1 class="text-center">สถานทีท่องเที่ยวจังหวัดกาญจนบุรี</h1>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 15rem;">
+        <img src="img/อุทยานแห่งชาติหมู่เกาะชุมพร.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">สกายวอล์คเมืองกาญจนบุรี</h5>
+          <p class="card-text">เป็นสถานที่เที่ยวเมืองกาญจน์แห่งใหม่ที่ทุกคนจะต้องไปเช็กอิน ตั้งอยู่บนริมน้ำแควที่มีความสูงจากพื้นถนนถึง 12 เมตร และมีความยาวของสกายวอล์คอยู่ที่ 150 เมตร โดยตัวพื้นจะทำจากกระจกใสที่มีความแข็งแรง ทำให้ในระหว่างที่เดินเล่นก็จะมองเห็นแม่น้ำที่อยู่ด้านล่าง และภาพบรรยากาศที่สวยงามของแม่น้ำสองสายที่มาบรรจบกันอย่าง แม่น้ำแควใหญ่ แม่น้ำแควน้อย กลายเป็นแม่น้ำแม่กลอง</p>
+          <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+      </div>
+      </div>
+      </div>
+      
+        <div class="col">
+          <div class="card" style="width: 15rem;">
+            <img src="img/ต้นจามจุรียักษ์.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ต้นจามจุรียักษ์</h5>
+              <p class="card-text">ต้นจามจุรียักษ์ เป็นอีกหนึ่งจุดที่เที่ยวเมืองกาญจน์ที่จะต้องแวะไปเช็กอินถ่ายรูปสักภาพสองภาพ โดยต้นจามจุรียักษ์นี้มีอายุมากกว่า 100 ปี ขนาด 10 คนโอบ และมีพุ่มที่บานออกมาขนาดกว่า 25 เมตร นับเป็นต้นไม้ขนาดใหญ่ที่หาได้ยากมาก ๆ ในปัจจุบัน ใครที่ชื่นชอบต้นไม้ จะต้องไม่พลาดที่นี่เลย</p>
+              <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+          </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 15rem;">
+              <img src="img/น้ำตกไทรโยกน้อย.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">น้ำตกไทรโยกน้อย</h5>
+                <p class="card-text">น้ำตกไทรโยกน้อย หรือที่เรียกว่า “น้ำตกเขาพัง” เป็นน้ำตกที่ตั้งอยู่ในเขตอุทยานแห่งชาติไทรโยค ตำบลท่าเสา อำเภอไทรโยค จังหวัดกาญจนบุรี นับเป็นหนึ่งในน้ำตกที่สวยงามแห่งหนึ่งในกาญจนบุรีเลย มีธรรมชาติที่สวยงาม ร่มรื่น ที่สำคัญแอ่งน้ำตกยังไม่ลึกมาก สามารถมาถ่ายรูปเล่น หรือพาลูกหลานมาเล่นน้ำตกได้อย่างสบายใจเลย</p>
+                <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+            </div>
+            </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="img/น้ำตกเอราวัณ.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">น้ำตกเอราวัณ</h5>
+                  <p class="card-text">น้ำตกเอราวัณ หรือที่เรียกว่า “น้ำตกสะด่องม่องลาย” จัดเป็นหนึ่งในน้ำตกที่สวยงามเป็นอันดับต้น ๆ ของไทยเลย โดยจะมีทั้งหมด 7 ชั้น และความยาวประมาณ 1,500 เมตร แต่ละชั้นจะมีความสวยงามที่แตกต่างกันไป ยิ่งขึ้นสูงเท่าไหร่น้ำก็จะยิ่งใสสะอาดเท่านั้น โดยชั้นบนสุดจะมีน้ำใสสะท้อนแสงเป็นสีฟ้าอมเขียวมรกตคล้ายสระว่ายน้ำเลย</p>
+                  <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+              </div>
+              </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 15rem;">
+                  <img src="img/เขื่อนศรีนครินทร์.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">เขื่อนศรีนครินทร์</h5>
+                    <p class="card-text">เขื่อนศรีนครินทร์ เป็นเขื่อนอเนกประสงค์ขนาดใหญ่ที่อยู่ท่ามกลางธรรมชาติและขุนเขา จัดเป็นหนึ่งในสถานที่ท่องเที่ยวและพักผ่อนหย่อนใจของใครหลาย ๆ คน โดยไฮไลท์ของที่นี่จะมี 2 จุดเด่น ๆ ได้แก่ บริเวณสันเขาเขื่อนและอ่างเก็บน้ำ ที่สามารถเข้ามาชมเพื่อเรียนรู้ประวัติศาสตร์และการทำงานของเขื่อนได้ สวนเวลารำลึกและนาฬิกาแดดที่สร้างขึ้นมาเพื่อสื่อความหมายถึงการเห็นคุณค่าของเวลา</p>
+                    <a href="#" class="btn btn-primary">ไปที่ หน้าแรก</a>
+                </div>
+                </div>
+                </div>                
+               
+<!-- ติดต่อเรา -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ติดต่องาน</h5>
+        <button class="btn-close" data-bs-dismiss="modal" ></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label>อีเมล</label>
+            <input type="emaii" placeholder="กรุณาป้อนอีเมลของคุณ" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>หัวข้อ</label>
+            <input type="text" placeholder="กรุณาป้อนหัวข้อ" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>รายละเอียด</label>
+            <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-bs-dismiss="modal">ยกเลิก</button>
+        <button class="btn btn-primary">ส่งข้อมูล</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-center p-4 bg-dark">
+  <div class="container">
+      <div class="row">
+          <div class="col">
+              <h5 class="footer">Copyright &copy; Suchawadee Official 2024</h5>
+          </div>
+      </div>
+  </div>
+</footer>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+          
+      
+    
+
+    
+</body>
+</html>
